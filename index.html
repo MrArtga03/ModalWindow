@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Figma copy</title>
+</head>
+<body>
+
+    <!-- Модальное окно оформления заказа -->
+    <div id="app">
+        <section>
+            <div class="form-container">
+                <form action="">
+                    <div>
+                        <label for="">ФИО:</label>
+                        <span class="lab-form-name"></span>
+                    </div>
+                    <div>
+                        <label for="">Телефон:</label>
+                        <span class="lab-form-phone"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="title">
+                <h2>Оформить заказ</h2>
+            </div>
+
+            <div class="user-info">
+                <label class="lab">
+                    <input type="text" id="nameUser" class="name" placeholder="Введите ваше имя">
+                </label>
+
+                <label class="lab">
+                    <input type="text" id="phoneUser" class="phone" placeholder="Введите ваш телефон">
+                </label>
+            </div>
+
+            <div class="user-choices">
+                <input type="radio" name="shareHome" id="radio_1" class="radio_input">
+                <label for="radio_1" class="radio_label">Доставка на дом</label>
+
+                <input type="radio" name="shareHome" id="radio_2" class="radio_input">
+                <label for="radio_2" class="radio_label">Самовывоз</label>
+            </div>
+
+            <div class="button">
+                <span>Оставить заявку</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
